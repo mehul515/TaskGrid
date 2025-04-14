@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    experimental: {
+      turbo: false, // ⛔ Disable Turbopack
+    },
+  };
+  
+  export default nextConfig;
+  
