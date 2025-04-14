@@ -15,7 +15,7 @@ import {
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { toast } from 'sonner';
-import { Plus, CheckCircle, AlertCircle, ChevronRight, Calendar, Users, Tag, Flag } from 'lucide-react';
+import { Plus, CheckCircle, AlertCircle, ChevronRight, Calendar, Users, Tag, Flag, Layers } from 'lucide-react';
 import Link from 'next/link';
 
 export default function ProjectsPage() {
@@ -146,7 +146,7 @@ export default function ProjectsPage() {
               <h1 className="text-3xl font-bold bg-gradient-to-r from-teal-400 via-cyan-300 to-teal-400 bg-clip-text text-transparent">
                 Your Projects
               </h1>
-              <p className="text-gray-400">Manage and organize your team's work</p>
+              <p className="text-gray-400">Manage and organize your team&apos;s work</p>
             </div>
             
             <Dialog open={open} onOpenChange={setOpen}>

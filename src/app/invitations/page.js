@@ -132,7 +132,7 @@ export default function InvitationsPage() {
             >
               <Mail className="h-8 w-8 text-gray-600 mb-3" />
               <h3 className="text-base font-medium text-gray-300">No pending invitations</h3>
-              <p className="text-gray-500 text-xs mt-1">When you receive invitations, they'll appear here</p>
+              <p className="text-gray-500 text-xs mt-1">When you receive invitations, they&apos;ll appear here</p>
             </motion.div>
           ) : (
             <motion.div 

@@ -181,7 +181,7 @@ export default function Home() {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-cyan-300 to-teal-400 leading-tight">
-              Streamline Your Team's Workflow with TaskGrid
+              Streamline Your Team&apos;s Workflow with TaskGrid
             </h1>
             <div className="relative mb-8">
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
@@ -349,7 +349,7 @@ export default function Home() {
                   </h4>
                   <p className="text-gray-400 text-sm">
                     TaskGrid uses industry-leading security practices to ensure your data is always protected. With SOC
-                    2 compliance, regular security audits, and end-to-end encryption, you can trust that your team's
+                    2 compliance, regular security audits, and end-to-end encryption, you can trust that your team&apos;s
                     work is secure.
                   </p>
                 </div>
@@ -450,7 +450,7 @@ export default function Home() {
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Intuitive Kanban Boards</h2>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                TaskGrid's Kanban boards provide a visual overview of your project's progress. Easily move tasks between
+                TaskGrid&apos;s Kanban boards provide a visual overview of your project&apos;s progress. Easily move tasks between
                 columns as they progress from idea to completion.
               </p>
 
@@ -462,7 +462,7 @@ export default function Home() {
                   <div>
                     <h4 className="text-lg font-medium text-white mb-1">Customizable Workflows</h4>
                     <p className="text-gray-400">
-                      Create custom columns to match your team's unique process. Add, remove, or rename columns as your
+                      Create custom columns to match your team&apos;s unique process. Add, remove, or rename columns as your
                       workflow evolves.
                     </p>
                   </div>
@@ -488,7 +488,7 @@ export default function Home() {
                   <div>
                     <h4 className="text-lg font-medium text-white mb-1">Visual Progress Tracking</h4>
                     <p className="text-gray-400">
-                      See your project's status at a glance. Identify bottlenecks and balance workloads for optimal team
+                      See your project&apos;s status at a glance. Identify bottlenecks and balance workloads for optimal team
                       performance.
                     </p>
                   </div>

@@ -190,7 +190,7 @@ export default function InvitationPage() {
             </div>
             <div>
               <h1 className="text-2xl font-semibold text-white">Project Invitation</h1>
-              <p className="text-gray-400">You've been invited to collaborate</p>
+              <p className="text-gray-400">You&apos;ve been invited to collaborate</p>
             </div>
           </div>
 

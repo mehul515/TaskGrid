@@ -128,7 +128,7 @@ export default function ForgotPassword() {
             <div className="text-center space-y-6">
               <div className="bg-teal-500/10 border border-teal-500/30 rounded-lg p-4">
                 <p className="text-gray-300">
-                  We've sent a password reset link to your email address. The link will expire in 1 hour.
+                  We&apos;ve sent a password reset link to your email address. The link will expire in 1 hour.
                 </p>
               </div>
               <Button 

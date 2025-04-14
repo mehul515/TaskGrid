@@ -183,7 +183,7 @@ export default function DashboardPage() {
             <h1 className="text-3xl font-bold bg-gradient-to-r from-teal-400 via-cyan-300 to-teal-400 bg-clip-text text-transparent">
               Dashboard Overview
             </h1>
-            <p className="text-gray-400">Welcome back! Here's what's happening with your projects.</p>
+            <p className="text-gray-400">Welcome back! Here&apos;s what&apos;s happening with your projects.</p>
           </div>
 
           {/* Stats Cards */}
@@ -360,7 +360,7 @@ export default function DashboardPage() {
                   <CheckCircle className="h-6 w-6 text-teal-400" />
                 </div>
                 <h3 className="text-lg font-medium text-white mb-2">No tasks assigned</h3>
-                <p className="text-gray-400 mb-4">You currently don't have any tasks assigned to you</p>
+                <p className="text-gray-400 mb-4">You currently don&apos;t have any tasks assigned to you</p>
                 <Link
                   href="/tasks/new"
                   className="inline-flex items-center justify-center bg-teal-500/10 hover:bg-teal-500/20 border border-teal-500/30 hover:border-teal-500/50 text-teal-400 px-4 py-2 rounded-lg transition-all"
