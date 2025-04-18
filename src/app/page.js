@@ -167,7 +167,8 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
+      <section className="relative pt-32 pb-20 md:pt-40 h-screen flex md:pb-32 overflow-hidden justify-center items-center">
+        <div>
         <div className="absolute inset-0 bg-gradient-to-b from-teal-900/20 to-gray-950 z-0"></div>
         <div className="absolute top-0 left-0 right-0 h-[500px] bg-gradient-to-br from-teal-500/10 via-gray-900/0 to-gray-900/0 z-0"></div>
         <div className="absolute inset-0 bg-[url('/placeholder.svg?height=100&width=100')] bg-repeat opacity-5 z-0"></div>
@@ -214,26 +215,7 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
-
-        <motion.div
-          className="mt-16 relative z-10 max-w-7xl mx-auto px-6"
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8 }}
-        >
-          <div className="relative">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-lg blur opacity-30"></div>
-            <div className="relative bg-gray-900 rounded-lg border border-gray-800 shadow-2xl overflow-hidden">
-              <Image
-                src="/placeholder.svg?height=600&width=1200"
-                alt="TaskGrid Dashboard"
-                width={1200}
-                height={600}
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
-        </motion.div>
+        </div>
       </section>
 
       {/* About Section */}
@@ -515,21 +497,21 @@ export default function Home() {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-lg blur opacity-30"></div>
               <div className="relative bg-gray-800 rounded-lg border border-gray-700 overflow-hidden shadow-2xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/hero.png"
                   alt="TaskGrid Kanban Board"
                   width={800}
                   height={600}
                   className="w-full h-auto"
                 />
               </div>
-              <div className="absolute -bottom-4 -right-4 bg-teal-500/10 backdrop-blur-sm border border-teal-500/20 rounded-lg p-4 shadow-xl">
+              <div className="absolute -bottom-4 -right-4 bg-teal-500/20 backdrop-blur-lg border border-teal-500/40 rounded-lg p-4 shadow-xl">
                 <div className="flex items-center gap-3">
-                  <div className="bg-teal-500/20 p-2 rounded-full">
+                  <div className="bg-teal-500/30 p-2 rounded-full">
                     <Zap className="h-5 w-5 text-teal-400" />
                   </div>
                   <div>
                     <p className="text-white font-medium">Boost productivity by 35%</p>
-                    <p className="text-gray-400 text-sm">with visual task management</p>
+                    <p className="text-gray-300 text-sm">with visual task management</p>
                   </div>
                 </div>
               </div>
